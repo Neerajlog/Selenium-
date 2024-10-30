@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="App guest user">
+    <parameter name="env" value="prod"></parameter>
+    <parameter name="webConfig" value="d-web"></parameter>
+
+    <test name="Test_1">
+        <classes>
+            <class name="EntrataTest.test"/>
+        </classes>
+    </test>
+</suite>
+
